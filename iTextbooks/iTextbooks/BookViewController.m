@@ -28,6 +28,13 @@
     [webView loadRequest:requestObj];
     webView.scrollView.delegate = self;
     //scrollView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"tile-paper-background.png"]];
+    if (branchViewController == nil)
+    {
+        UISplitViewController *splitView=(UISplitViewController *) self.parentViewController;
+        splitView.preferredDisplayMode=UISplitViewControllerDisplayModeAllVisible;
+        branchViewController=splitView.viewControllers[0]; //"master" is always the first
+        
+    }
     
 }
 
@@ -47,6 +54,16 @@
 }
 */
 
+- (void) setOptimumImage:(int)optimumImage
+{
+    if (_optimumImage != optimumImage)
+    {
+        NSIndexPath *path = [NSIndexPath indexPathForRow: optimumImage inSection:0];
+    [branchViewController.collectionView scrollToItemAtIndexPath:path
+                                                atScrollPosition:UICollectionViewScrollPositionCenteredVertically | UICollectionViewScrollPositionCenteredHorizontally animated:true];
+        _optimumImage=optimumImage;
+    }
+}
 
 #define RATIO 200.0
 - (void)scrollViewDidScroll:(UIScrollView *)scrollViewL;                                               // any offset changes
@@ -56,7 +73,8 @@
     {
         image = branchViewController.imageNameList.count-1;
     }
-    //[branchViewController.gridView scrollToObjectAtIndex: image atScrollPosition:GMGridViewScrollPositionMiddle animated:YES];
+    self.optimumImage=image;
+    
 }
 
 

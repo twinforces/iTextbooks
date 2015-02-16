@@ -10,6 +10,6 @@
 
 @interface BranchCollectionViewCell : UICollectionViewCell
 
-@property (nonatomic,strong) IBOutlet UIImageView *imageView;
+@property (nonatomic,weak) IBOutlet UIImageView *imageView;
 @property (nonatomic,strong) NSString *photoName;
 @end

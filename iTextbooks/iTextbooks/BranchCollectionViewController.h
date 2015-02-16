@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface BranchCollectionViewController : UICollectionViewController <UICollectionViewDelegate, UICollectionViewDataSource>
-{
-    NSMutableArray *imageNameList;
-}
 
-@property (nonatomic, retain) IBOutlet NSMutableArray *imageNameList;
+
+@property (nonatomic, strong) IBOutlet NSMutableArray *imageNameList;
+@property (nonatomic,strong) IBOutlet UICollectionView *collectionView;
 
 
 @end

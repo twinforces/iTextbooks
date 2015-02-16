@@ -9,16 +9,12 @@
 #import "ViewController.h"
 #import "BranchCollectionViewController.h"
 
-@interface BookViewController : ViewController <UIScrollViewDelegate>
+@interface BookViewController : UIViewController <UIScrollViewDelegate>
 
-{   BranchCollectionViewController *detailViewController;
-    IBOutlet UIWebView *webView;
-    IBOutlet UIScrollView *scrollView;
-    
-}
 
-@property (nonatomic, retain) IBOutlet BranchCollectionViewController *branchViewController;
-@property (nonatomic, retain) IBOutlet UIWebView *webView;
-@property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, weak) IBOutlet BranchCollectionViewController *branchViewController;
+@property (nonatomic, weak) IBOutlet UIWebView *webView;
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
+@property (nonatomic) int optimumImage;
 
 @end
