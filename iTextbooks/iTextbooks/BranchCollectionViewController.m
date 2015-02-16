@@ -7,6 +7,7 @@
 //
 
 #import "BranchCollectionViewController.h"
+#import "BranchCollectionViewCell.h"
 
 @interface BranchCollectionViewController ()
 
@@ -14,17 +15,17 @@
 
 @implementation BranchCollectionViewController
 
-static NSString * const reuseIdentifier = @"Cell";
+static NSString * const reuseIdentifier = @"BranchCell";
 
-@synthesize urlList;
+@synthesize imageNameList;
 
 
 #pragma mark -
 #pragma mark Managing the detail item
 
-- (void) buildURLList
+- (void) buildImageNameList
 {
-    if (!urlList)
+    if (!imageNameList)
     {
         /*self.urlList = [NSMutableArray arrayWithObjects: @"http://www.apple.com",
          @"http://www.cnn.com",
@@ -32,10 +33,10 @@ static NSString * const reuseIdentifier = @"Cell";
          @"https://www.voltstats.net/Stats/Details/1191",
          @"http://www.tuaw.com",nil ];*/
         int imageCount=10;
-        self.urlList=[NSMutableArray arrayWithCapacity:imageCount];
+        self.imageNameList=[NSMutableArray arrayWithCapacity:imageCount];
         for (int i=1;i<=imageCount;i++)
         {
-            [self.urlList addObject: [NSString stringWithFormat:@"img%d.jpg",i]];
+            [self.imageNameList addObject: [NSString stringWithFormat:@"img%d.jpg",i]];
         }
     }
     
@@ -47,8 +48,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    [self buildImageNameList];
     
     // Do any additional setup after loading the view.
 }
@@ -76,13 +76,14 @@ static NSString * const reuseIdentifier = @"Cell";
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return [urlList count];
+    return [imageNameList count];
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    
+    BranchCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+
     // Configure the cell
+    cell.photoName = imageNameList[indexPath.row];
     
     return cell;
 }
@@ -96,12 +97,16 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 */
 
-/*
+
 // Uncomment this method to specify if the specified item should be selected
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     return YES;
 }
-*/
+
+- (void) collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    // TODO: Deal with Items selection
+}
 
 /*
 // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item

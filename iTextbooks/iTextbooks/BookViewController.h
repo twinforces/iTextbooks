@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "BranchCollectionViewController.h"
 
-@interface BookViewController : ViewController
+@interface BookViewController : ViewController <UIScrollViewDelegate>
 
 {   BranchCollectionViewController *detailViewController;
     IBOutlet UIWebView *webView;

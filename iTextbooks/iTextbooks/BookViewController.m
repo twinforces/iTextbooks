@@ -52,9 +52,9 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollViewL;                                               // any offset changes
 {
     int image=scrollViewL.contentOffset.y / RATIO;
-    if (image >= branchViewController.urlList.count )
+    if (image >= branchViewController.imageNameList.count )
     {
-        image = branchViewController.urlList.count-1;
+        image = branchViewController.imageNameList.count-1;
     }
     //[branchViewController.gridView scrollToObjectAtIndex: image atScrollPosition:GMGridViewScrollPositionMiddle animated:YES];
 }

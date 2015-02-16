@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BranchCollectionViewController : UICollectionViewController
+@interface BranchCollectionViewController : UICollectionViewController <UICollectionViewDelegate, UICollectionViewDataSource>
 {
-    NSMutableArray *urlList;
+    NSMutableArray *imageNameList;
 }
 
-@property (nonatomic, retain) IBOutlet NSMutableArray *urlList;
+@property (nonatomic, retain) IBOutlet NSMutableArray *imageNameList;
 
 
 @end
