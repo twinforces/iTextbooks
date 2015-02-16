@@ -17,6 +17,7 @@
     {
         _photoName = photoName;
     }
-    self.imageView.image = [UIImage imageWithContentsOfFile: photoName];
+    UIImage *image =[UIImage imageNamed: photoName];
+    self.imageView.image =image;
 }
 @end

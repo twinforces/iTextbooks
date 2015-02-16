@@ -7,53 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE20A1E51A92562A00970516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A1E41A92562A00970516 /* main.m */; };
-		BE20A1E81A92562A00970516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A1E71A92562A00970516 /* AppDelegate.m */; };
-		BE20A1EB1A92562A00970516 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A1EA1A92562A00970516 /* MasterViewController.m */; };
-		BE20A1EE1A92562A00970516 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A1ED1A92562A00970516 /* DetailViewController.m */; };
-		BE20A1F11A92562A00970516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE20A1EF1A92562A00970516 /* Main.storyboard */; };
-		BE20A1F31A92562A00970516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20A1F21A92562A00970516 /* Images.xcassets */; };
-		BE20A1F61A92562A00970516 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE20A1F41A92562A00970516 /* LaunchScreen.xib */; };
-		BE20A2021A92562A00970516 /* iTextbooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A2011A92562A00970516 /* iTextbooksTests.m */; };
+		BE20A21A1A9268C100970516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A2191A9268C100970516 /* main.m */; };
+		BE20A21D1A9268C100970516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A21C1A9268C100970516 /* AppDelegate.m */; };
+		BE20A2201A9268C100970516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A21F1A9268C100970516 /* ViewController.m */; };
+		BE20A2231A9268C100970516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2211A9268C100970516 /* Main.storyboard */; };
+		BE20A2251A9268C100970516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2241A9268C100970516 /* Images.xcassets */; };
+		BE20A2281A9268C100970516 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2261A9268C100970516 /* LaunchScreen.xib */; };
+		BE20A2341A9268C100970516 /* iTextbooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A2331A9268C100970516 /* iTextbooksTests.m */; };
+		BE20A23F1A926D6F00970516 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A23E1A926D6E00970516 /* BookViewController.m */; };
+		BE20A2421A926DAE00970516 /* BranchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A2411A926DAE00970516 /* BranchCollectionViewController.m */; };
+		BE20A2601A9271E700970516 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A24D1A9271E700970516 /* img1.jpg */; };
+		BE20A2611A9271E700970516 /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A24E1A9271E700970516 /* img10.jpg */; };
+		BE20A2621A9271E700970516 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A24F1A9271E700970516 /* img2.jpg */; };
+		BE20A2631A9271E700970516 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2501A9271E700970516 /* img3.jpg */; };
+		BE20A2641A9271E700970516 /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2511A9271E700970516 /* img4.jpg */; };
+		BE20A2651A9271E700970516 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2521A9271E700970516 /* img5.jpg */; };
+		BE20A2661A9271E700970516 /* img6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2531A9271E700970516 /* img6.jpg */; };
+		BE20A2671A9271E700970516 /* img7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2541A9271E700970516 /* img7.jpg */; };
+		BE20A2681A9271E700970516 /* img8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2551A9271E700970516 /* img8.jpg */; };
+		BE20A2691A9271E700970516 /* img9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE20A2561A9271E700970516 /* img9.jpg */; };
+		BE20A26B1A9274EF00970516 /* lorem.html in Resources */ = {isa = PBXBuildFile; fileRef = BE20A26A1A9274EF00970516 /* lorem.html */; };
+		BE20A26E1A9279FE00970516 /* BranchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20A26D1A9279FE00970516 /* BranchCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE20A1FC1A92562A00970516 /* PBXContainerItemProxy */ = {
+		BE20A22E1A9268C100970516 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE20A1D71A92562A00970516 /* Project object */;
+			containerPortal = BE20A20C1A9268C100970516 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE20A1DE1A92562A00970516;
+			remoteGlobalIDString = BE20A2131A9268C100970516;
 			remoteInfo = iTextbooks;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE20A1DF1A92562A00970516 /* iTextbooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTextbooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE20A1E31A92562A00970516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE20A1E41A92562A00970516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE20A1E61A92562A00970516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BE20A1E71A92562A00970516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE20A1E91A92562A00970516 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		BE20A1EA1A92562A00970516 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		BE20A1EC1A92562A00970516 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		BE20A1ED1A92562A00970516 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		BE20A1F01A92562A00970516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE20A1F21A92562A00970516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BE20A1F51A92562A00970516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BE20A1FB1A92562A00970516 /* iTextbooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTextbooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE20A2001A92562A00970516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE20A2011A92562A00970516 /* iTextbooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTextbooksTests.m; sourceTree = "<group>"; };
+		BE20A2141A9268C100970516 /* iTextbooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTextbooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20A2181A9268C100970516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE20A2191A9268C100970516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE20A21B1A9268C100970516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE20A21C1A9268C100970516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE20A21E1A9268C100970516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE20A21F1A9268C100970516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE20A2221A9268C100970516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE20A2241A9268C100970516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE20A2271A9268C100970516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE20A22D1A9268C100970516 /* iTextbooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTextbooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE20A2321A9268C100970516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE20A2331A9268C100970516 /* iTextbooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTextbooksTests.m; sourceTree = "<group>"; };
+		BE20A23D1A926D6E00970516 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		BE20A23E1A926D6E00970516 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		BE20A2401A926DAE00970516 /* BranchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchCollectionViewController.h; sourceTree = "<group>"; };
+		BE20A2411A926DAE00970516 /* BranchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchCollectionViewController.m; sourceTree = "<group>"; };
+		BE20A24D1A9271E700970516 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		BE20A24E1A9271E700970516 /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
+		BE20A24F1A9271E700970516 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		BE20A2501A9271E700970516 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
+		BE20A2511A9271E700970516 /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
+		BE20A2521A9271E700970516 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
+		BE20A2531A9271E700970516 /* img6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img6.jpg; sourceTree = "<group>"; };
+		BE20A2541A9271E700970516 /* img7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img7.jpg; sourceTree = "<group>"; };
+		BE20A2551A9271E700970516 /* img8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img8.jpg; sourceTree = "<group>"; };
+		BE20A2561A9271E700970516 /* img9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img9.jpg; sourceTree = "<group>"; };
+		BE20A26A1A9274EF00970516 /* lorem.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lorem.html; sourceTree = "<group>"; };
+		BE20A26C1A9279FE00970516 /* BranchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchCollectionViewCell.h; sourceTree = "<group>"; };
+		BE20A26D1A9279FE00970516 /* BranchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE20A1DC1A92562A00970516 /* Frameworks */ = {
+		BE20A2111A9268C100970516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE20A1F81A92562A00970516 /* Frameworks */ = {
+		BE20A22A1A9268C100970516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,77 +91,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE20A1D61A92562A00970516 = {
+		BE20A20B1A9268C100970516 = {
 			isa = PBXGroup;
 			children = (
-				BE20A1E11A92562A00970516 /* iTextbooks */,
-				BE20A1FE1A92562A00970516 /* iTextbooksTests */,
-				BE20A1E01A92562A00970516 /* Products */,
+				BE20A2161A9268C100970516 /* iTextbooks */,
+				BE20A2301A9268C100970516 /* iTextbooksTests */,
+				BE20A2151A9268C100970516 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE20A1E01A92562A00970516 /* Products */ = {
+		BE20A2151A9268C100970516 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A1DF1A92562A00970516 /* iTextbooks.app */,
-				BE20A1FB1A92562A00970516 /* iTextbooksTests.xctest */,
+				BE20A2141A9268C100970516 /* iTextbooks.app */,
+				BE20A22D1A9268C100970516 /* iTextbooksTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE20A1E11A92562A00970516 /* iTextbooks */ = {
+		BE20A2161A9268C100970516 /* iTextbooks */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A1E61A92562A00970516 /* AppDelegate.h */,
-				BE20A1E71A92562A00970516 /* AppDelegate.m */,
-				BE20A1E91A92562A00970516 /* MasterViewController.h */,
-				BE20A1EA1A92562A00970516 /* MasterViewController.m */,
-				BE20A1EC1A92562A00970516 /* DetailViewController.h */,
-				BE20A1ED1A92562A00970516 /* DetailViewController.m */,
-				BE20A1EF1A92562A00970516 /* Main.storyboard */,
-				BE20A1F21A92562A00970516 /* Images.xcassets */,
-				BE20A1F41A92562A00970516 /* LaunchScreen.xib */,
-				BE20A1E21A92562A00970516 /* Supporting Files */,
+				BE20A2431A9271E700970516 /* Regions */,
+				BE20A21B1A9268C100970516 /* AppDelegate.h */,
+				BE20A21C1A9268C100970516 /* AppDelegate.m */,
+				BE20A21E1A9268C100970516 /* ViewController.h */,
+				BE20A21F1A9268C100970516 /* ViewController.m */,
+				BE20A2211A9268C100970516 /* Main.storyboard */,
+				BE20A2241A9268C100970516 /* Images.xcassets */,
+				BE20A2261A9268C100970516 /* LaunchScreen.xib */,
+				BE20A2171A9268C100970516 /* Supporting Files */,
+				BE20A23D1A926D6E00970516 /* BookViewController.h */,
+				BE20A23E1A926D6E00970516 /* BookViewController.m */,
+				BE20A2401A926DAE00970516 /* BranchCollectionViewController.h */,
+				BE20A2411A926DAE00970516 /* BranchCollectionViewController.m */,
+				BE20A26C1A9279FE00970516 /* BranchCollectionViewCell.h */,
+				BE20A26D1A9279FE00970516 /* BranchCollectionViewCell.m */,
 			);
 			path = iTextbooks;
 			sourceTree = "<group>";
 		};
-		BE20A1E21A92562A00970516 /* Supporting Files */ = {
+		BE20A2171A9268C100970516 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A1E31A92562A00970516 /* Info.plist */,
-				BE20A1E41A92562A00970516 /* main.m */,
+				BE20A26A1A9274EF00970516 /* lorem.html */,
+				BE20A2181A9268C100970516 /* Info.plist */,
+				BE20A2191A9268C100970516 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BE20A1FE1A92562A00970516 /* iTextbooksTests */ = {
+		BE20A2301A9268C100970516 /* iTextbooksTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A2011A92562A00970516 /* iTextbooksTests.m */,
-				BE20A1FF1A92562A00970516 /* Supporting Files */,
+				BE20A2331A9268C100970516 /* iTextbooksTests.m */,
+				BE20A2311A9268C100970516 /* Supporting Files */,
 			);
 			path = iTextbooksTests;
 			sourceTree = "<group>";
 		};
-		BE20A1FF1A92562A00970516 /* Supporting Files */ = {
+		BE20A2311A9268C100970516 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BE20A2001A92562A00970516 /* Info.plist */,
+				BE20A2321A9268C100970516 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE20A2431A9271E700970516 /* Regions */ = {
+			isa = PBXGroup;
+			children = (
+				BE20A24D1A9271E700970516 /* img1.jpg */,
+				BE20A24E1A9271E700970516 /* img10.jpg */,
+				BE20A24F1A9271E700970516 /* img2.jpg */,
+				BE20A2501A9271E700970516 /* img3.jpg */,
+				BE20A2511A9271E700970516 /* img4.jpg */,
+				BE20A2521A9271E700970516 /* img5.jpg */,
+				BE20A2531A9271E700970516 /* img6.jpg */,
+				BE20A2541A9271E700970516 /* img7.jpg */,
+				BE20A2551A9271E700970516 /* img8.jpg */,
+				BE20A2561A9271E700970516 /* img9.jpg */,
+			);
+			path = Regions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE20A1DE1A92562A00970516 /* iTextbooks */ = {
+		BE20A2131A9268C100970516 /* iTextbooks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE20A2051A92562A00970516 /* Build configuration list for PBXNativeTarget "iTextbooks" */;
+			buildConfigurationList = BE20A2371A9268C100970516 /* Build configuration list for PBXNativeTarget "iTextbooks" */;
 			buildPhases = (
-				BE20A1DB1A92562A00970516 /* Sources */,
-				BE20A1DC1A92562A00970516 /* Frameworks */,
-				BE20A1DD1A92562A00970516 /* Resources */,
+				BE20A2101A9268C100970516 /* Sources */,
+				BE20A2111A9268C100970516 /* Frameworks */,
+				BE20A2121A9268C100970516 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -141,46 +192,46 @@
 			);
 			name = iTextbooks;
 			productName = iTextbooks;
-			productReference = BE20A1DF1A92562A00970516 /* iTextbooks.app */;
+			productReference = BE20A2141A9268C100970516 /* iTextbooks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE20A1FA1A92562A00970516 /* iTextbooksTests */ = {
+		BE20A22C1A9268C100970516 /* iTextbooksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE20A2081A92562A00970516 /* Build configuration list for PBXNativeTarget "iTextbooksTests" */;
+			buildConfigurationList = BE20A23A1A9268C100970516 /* Build configuration list for PBXNativeTarget "iTextbooksTests" */;
 			buildPhases = (
-				BE20A1F71A92562A00970516 /* Sources */,
-				BE20A1F81A92562A00970516 /* Frameworks */,
-				BE20A1F91A92562A00970516 /* Resources */,
+				BE20A2291A9268C100970516 /* Sources */,
+				BE20A22A1A9268C100970516 /* Frameworks */,
+				BE20A22B1A9268C100970516 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE20A1FD1A92562A00970516 /* PBXTargetDependency */,
+				BE20A22F1A9268C100970516 /* PBXTargetDependency */,
 			);
 			name = iTextbooksTests;
 			productName = iTextbooksTests;
-			productReference = BE20A1FB1A92562A00970516 /* iTextbooksTests.xctest */;
+			productReference = BE20A22D1A9268C100970516 /* iTextbooksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE20A1D71A92562A00970516 /* Project object */ = {
+		BE20A20C1A9268C100970516 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Pierce Wetter";
 				TargetAttributes = {
-					BE20A1DE1A92562A00970516 = {
+					BE20A2131A9268C100970516 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					BE20A1FA1A92562A00970516 = {
+					BE20A22C1A9268C100970516 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = BE20A1DE1A92562A00970516;
+						TestTargetID = BE20A2131A9268C100970516;
 					};
 				};
 			};
-			buildConfigurationList = BE20A1DA1A92562A00970516 /* Build configuration list for PBXProject "iTextbooks" */;
+			buildConfigurationList = BE20A20F1A9268C100970516 /* Build configuration list for PBXProject "iTextbooks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,29 +239,40 @@
 				en,
 				Base,
 			);
-			mainGroup = BE20A1D61A92562A00970516;
-			productRefGroup = BE20A1E01A92562A00970516 /* Products */;
+			mainGroup = BE20A20B1A9268C100970516;
+			productRefGroup = BE20A2151A9268C100970516 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE20A1DE1A92562A00970516 /* iTextbooks */,
-				BE20A1FA1A92562A00970516 /* iTextbooksTests */,
+				BE20A2131A9268C100970516 /* iTextbooks */,
+				BE20A22C1A9268C100970516 /* iTextbooksTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE20A1DD1A92562A00970516 /* Resources */ = {
+		BE20A2121A9268C100970516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE20A1F11A92562A00970516 /* Main.storyboard in Resources */,
-				BE20A1F61A92562A00970516 /* LaunchScreen.xib in Resources */,
-				BE20A1F31A92562A00970516 /* Images.xcassets in Resources */,
+				BE20A26B1A9274EF00970516 /* lorem.html in Resources */,
+				BE20A2231A9268C100970516 /* Main.storyboard in Resources */,
+				BE20A2621A9271E700970516 /* img2.jpg in Resources */,
+				BE20A2691A9271E700970516 /* img9.jpg in Resources */,
+				BE20A2601A9271E700970516 /* img1.jpg in Resources */,
+				BE20A2281A9268C100970516 /* LaunchScreen.xib in Resources */,
+				BE20A2641A9271E700970516 /* img4.jpg in Resources */,
+				BE20A2661A9271E700970516 /* img6.jpg in Resources */,
+				BE20A2631A9271E700970516 /* img3.jpg in Resources */,
+				BE20A2611A9271E700970516 /* img10.jpg in Resources */,
+				BE20A2671A9271E700970516 /* img7.jpg in Resources */,
+				BE20A2651A9271E700970516 /* img5.jpg in Resources */,
+				BE20A2681A9271E700970516 /* img8.jpg in Resources */,
+				BE20A2251A9268C100970516 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE20A1F91A92562A00970516 /* Resources */ = {
+		BE20A22B1A9268C100970516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,48 +282,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE20A1DB1A92562A00970516 /* Sources */ = {
+		BE20A2101A9268C100970516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE20A1E81A92562A00970516 /* AppDelegate.m in Sources */,
-				BE20A1EB1A92562A00970516 /* MasterViewController.m in Sources */,
-				BE20A1E51A92562A00970516 /* main.m in Sources */,
-				BE20A1EE1A92562A00970516 /* DetailViewController.m in Sources */,
+				BE20A2201A9268C100970516 /* ViewController.m in Sources */,
+				BE20A23F1A926D6F00970516 /* BookViewController.m in Sources */,
+				BE20A2421A926DAE00970516 /* BranchCollectionViewController.m in Sources */,
+				BE20A21D1A9268C100970516 /* AppDelegate.m in Sources */,
+				BE20A21A1A9268C100970516 /* main.m in Sources */,
+				BE20A26E1A9279FE00970516 /* BranchCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE20A1F71A92562A00970516 /* Sources */ = {
+		BE20A2291A9268C100970516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE20A2021A92562A00970516 /* iTextbooksTests.m in Sources */,
+				BE20A2341A9268C100970516 /* iTextbooksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE20A1FD1A92562A00970516 /* PBXTargetDependency */ = {
+		BE20A22F1A9268C100970516 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE20A1DE1A92562A00970516 /* iTextbooks */;
-			targetProxy = BE20A1FC1A92562A00970516 /* PBXContainerItemProxy */;
+			target = BE20A2131A9268C100970516 /* iTextbooks */;
+			targetProxy = BE20A22E1A9268C100970516 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE20A1EF1A92562A00970516 /* Main.storyboard */ = {
+		BE20A2211A9268C100970516 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE20A1F01A92562A00970516 /* Base */,
+				BE20A2221A9268C100970516 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BE20A1F41A92562A00970516 /* LaunchScreen.xib */ = {
+		BE20A2261A9268C100970516 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE20A1F51A92562A00970516 /* Base */,
+				BE20A2271A9268C100970516 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -269,7 +333,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE20A2031A92562A00970516 /* Debug */ = {
+		BE20A2351A9268C100970516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		BE20A2041A92562A00970516 /* Release */ = {
+		BE20A2361A9268C100970516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +411,7 @@
 			};
 			name = Release;
 		};
-		BE20A2061A92562A00970516 /* Debug */ = {
+		BE20A2381A9268C100970516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -357,7 +421,7 @@
 			};
 			name = Debug;
 		};
-		BE20A2071A92562A00970516 /* Release */ = {
+		BE20A2391A9268C100970516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -367,7 +431,7 @@
 			};
 			name = Release;
 		};
-		BE20A2091A92562A00970516 /* Debug */ = {
+		BE20A23B1A9268C100970516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -386,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		BE20A20A1A92562A00970516 /* Release */ = {
+		BE20A23C1A9268C100970516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,32 +468,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE20A1DA1A92562A00970516 /* Build configuration list for PBXProject "iTextbooks" */ = {
+		BE20A20F1A9268C100970516 /* Build configuration list for PBXProject "iTextbooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE20A2031A92562A00970516 /* Debug */,
-				BE20A2041A92562A00970516 /* Release */,
+				BE20A2351A9268C100970516 /* Debug */,
+				BE20A2361A9268C100970516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE20A2051A92562A00970516 /* Build configuration list for PBXNativeTarget "iTextbooks" */ = {
+		BE20A2371A9268C100970516 /* Build configuration list for PBXNativeTarget "iTextbooks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE20A2061A92562A00970516 /* Debug */,
-				BE20A2071A92562A00970516 /* Release */,
+				BE20A2381A9268C100970516 /* Debug */,
+				BE20A2391A9268C100970516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		BE20A2081A92562A00970516 /* Build configuration list for PBXNativeTarget "iTextbooksTests" */ = {
+		BE20A23A1A9268C100970516 /* Build configuration list for PBXNativeTarget "iTextbooksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE20A2091A92562A00970516 /* Debug */,
-				BE20A20A1A92562A00970516 /* Release */,
+				BE20A23B1A9268C100970516 /* Debug */,
+				BE20A23C1A9268C100970516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE20A1D71A92562A00970516 /* Project object */;
+	rootObject = BE20A20C1A9268C100970516 /* Project object */;
 }
